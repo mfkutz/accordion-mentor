@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* primary text */
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+    /* Gradient */
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soff-blue: hsl(240, 73%, 65%);
+    /* text */
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+    /* dividers */
+    --Light-grayish-blue: hsl(240, 5%, 91%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, var(--Soft-violet), var(--Soff-blue));
+}
+
+.container {
+    width: 78rem;
+    height: 41rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.img-box {
+    /* background-color: rgba(97, 204, 102, 0.411); */
+    width: 36rem;
+    height: 41rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    /* background-image: url(../images/bg-pattern-desktop.svg); */
+    /* background-size: 200%; */
+    /* background-position-x: -38.7rem; */
+  /*   background-position-y: -21rem; */
+    position: relative;
+
+}
+
+.shadow {
+    /* background-color: red; */
+    width: 33rem;
+    height: 41rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: 80em;
+    background-position-x: -47rem;
+    background-position-y: -24.5rem;
+    position: absolute;
+    top: 0rem;
+   
+}
+
+.person {
+    width: 33rem;
+    height: 29.7rem;
+    background-image: url(../images/illustration-woman-online-desktop.svg);
+    background-size: 39em;
+    background-position-x: -6rem;
+    background-position-y: 0rem;
+    position: absolute;
+    top: 5rem;
+}
+
+.box{
+    position: absolute;
+    width: 12rem;
+    height: 15rem;
+    /* background-color: red; */
+    left: -5.5rem;
+    top: 16.6rem;
+    background-image: url("../images/illustration-box-desktop.svg");
+    background-position: center;
+
+}
