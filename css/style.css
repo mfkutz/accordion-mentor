@@ -169,4 +169,9 @@ section {
     .img-box {
         width: 28rem;
     }
+    body {
+        
+        min-height: 120vh;
+        
+    }
 }
