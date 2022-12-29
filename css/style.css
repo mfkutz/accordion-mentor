@@ -124,6 +124,9 @@ section {
 }
 
 @media(max-width:943px){
+    body {
+        min-height: 116vh;
+    }
     .container {
         width: 28rem;
         height: 45rem;
@@ -169,6 +172,5 @@ section {
     .img-box {
         width: 28rem;
     }
-
 
 }
